@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int a = 3; 
+int b = 7; 
+int c = 4;
+int total = 14;
+
+int main() {
+cout << "Frutos rojos" << endl;
+cout << "-----------------" << endl;
+cout << "Nombre | cantidad" << endl;
+cout << "-------+---------" << endl;
+cout << "Fresa  |a         " << endl;
+cout << "Mora   |b         " << endl;
+cout << "Cereza |c         " << endl;
+cout << "Total  |a+b+c     " << endl;
+cout << "-----------------" << endl;
+
+    return 0;
+}
