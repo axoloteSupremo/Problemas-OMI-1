@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+int main() {
+    char a,b,c; 
+    // a = ·, b=#, c = *
+    std::cin >> a, b,c;
+    //Primera línea de ch 'a' 
+    std::cout<< a << a << a << a << a << a << a << a << a <<a <<std::endl;
+    //Segunda línea: 3 a, 5b y 2a
+    std::cout << a << a << a << b << b << b << b << b << a << a << std::endl;
+    // Tercera línea:1a, 3b,5c y 1 a
+    std::cout << a << b << b << b << c << c << c << c << c << a << std::endl;
+    // Cuarta línea: 1a, 7b, 2a
+    std::cout << a << b << b << b << b << b << b << b << a << a << std::endl; 
+    // Quinta línea: 1a, 7b, 2a
+    std::cout << a << b << b << b << b << b << b << b << a << a << std::endl;
+    // Sexta línea: 1a, 7b, 2a
+    std::cout << a << b << b << b << b << b << b << b << a << a << std::endl;
+    // Séptima línea: 3a, 2b, 1a, 2b, 2a 
+    std::cout << a << a << a << b << b << a << b << b << a << a << std::endl;
+    // Octava línea igual a la primera
+    std::cout<< a << a << a << a << a << a << a << a << a <<a <<std::endl;
+    
+    return 0;
+}
