@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    // Write C++ code here
+    int a, b, c; 
+    std::cin >> a >> b >> c;
+std::cout << "Frutos rojos" << std::endl;
+std::cout << "-----------------" << std::endl;
+std::cout << "Nombre  |Cantidad" <<std::endl;
+std::cout << "--------+--------" <<std::endl;
+std::cout << "Fresa   |" <<a<< std::endl;
+std::cout << "Mora    |" <<b<< std::endl;
+std::cout << "Cereza  |" <<c<< std::endl;
+std::cout << "Total   |" <<a+b+c << std::endl;
+std::cout << "-----------------" << std::endl;
+
+
+    return 0;
+}
