@@ -1,20 +1,19 @@
 #include <iostream>
-using namespace std;
-int a = 3; 
-int b = 7; 
-int c = 4;
-int total = 14;
 
 int main() {
-cout << "Frutos rojos" << endl;
-cout << "-----------------" << endl;
-cout << "Nombre | cantidad" << endl;
-cout << "-------+---------" << endl;
-cout << "Fresa  |a         " << endl;
-cout << "Mora   |b         " << endl;
-cout << "Cereza |c         " << endl;
-cout << "Total  |a+b+c     " << endl;
-cout << "-----------------" << endl;
+    // Write C++ code here
+    int a, b, c; 
+    std::cin >> a >> b >> c;
+std::cout << "Frutos rojos" << std::endl;
+std::cout << "-----------------" <<std::endl;
+std::cout << "Nombre | cantidad" <<std::endl;
+std::cout << "-------+---------" <<std::endl;
+std::cout << "Fresa  |" <<a<< std::endl;
+std::cout << "Mora   |" <<b<< std::endl;
+std::cout << "Cereza |" <<c<< std::endl;
+std::cout << "Total  |" <<a+b+c << std::endl;
+std::cout << "-----------------" << std::endl;
+
 
     return 0;
 }
